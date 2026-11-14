@@ -1,8 +1,6 @@
 # Podcast Clipper: a free Claude skill (Claude chat + Desktop Commander, or Claude Code)
 
-Adapted from a GTA 6 stream clipper, then adapted again to run from **Claude chat on Windows**
-via the Desktop Commander connector (Claude Code / Cowork / Mac still work too). Give it
-comedy podcast episodes, or let it find the biggest recent ones, and it gives you vertical
+Give it comedy podcast episodes, or let it find the biggest recent ones, and it gives you vertical
 clips with a hook title bar and word-by-word captions, plus a caption and hashtags per clip
 to paste.
 
