@@ -5,7 +5,7 @@ clips with a hook title bar and word-by-word captions, plus a caption and hashta
 to paste.
 
 - Reads the whole episode: transcript, plus where the room got loud (laughter). **Claude
-  picks the moments itself**, reading transcript chunks directly in chat — no `claude -p`
+  picks the moments itself**, reading transcript chunks directly in chat  no `claude -p`
   subprocess, no API key, no Claude Code requirement.
 - The picking prompt uses what the top clips in a 100-clip comedy-podcast study had in
   common (live moment, a real person on the spot, one clear beat, instantly understood
