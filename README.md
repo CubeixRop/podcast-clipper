@@ -45,7 +45,7 @@ today's biggest comedy podcast episodes and clip them"*.
 Only offline checks were run: all files compile, the picking prompt fills in correctly, the
 JSON parser and time snapping work, and the episode finder drops short videos and keeps the
 biggest per show. Nothing was run against real downloads, Whisper, ffmpeg, or a live Desktop
-Commander session on an actual Windows machine — in particular, double-check the Windows
+Commander session on an actual Windows machine in particular, double-check the Windows
 font paths (`arialbd.ttf`, `seguiemj.ttf`) and the hardware-encoder names ffmpeg reports on
 the user's GPU/driver before relying on `--fast`. Podcast framing (`layout.py`) is untouched
 and defaults to `fit`.
