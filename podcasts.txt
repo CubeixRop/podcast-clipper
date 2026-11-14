@@ -1,0 +1,7 @@
+# Podcasts to check for new full episodes. One per line: youtube:@handle
+# Only episodes from the last 96 hours and longer than 20 minutes are picked.
+# These handles returned data on their Shorts tab; the /videos tab has not been tested. Fix any that fail.
+youtube:@YMHStudio
+youtube:@tomsegura
+youtube:@bertkreischer
+

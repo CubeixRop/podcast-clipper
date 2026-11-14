@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# local working data (whisper models, venv, downloaded clips) never belongs in the repo
+.podcast-clipper/
+podcast-clips/
+*.skill
