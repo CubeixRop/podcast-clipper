@@ -17,7 +17,7 @@ to paste.
 
 **Clone this repo** (recommended — easiest to update later):
 ```
-git clone https://github.com/<your-username>/podcast-clipper.git ~/.claude/skills/podcast-clipper
+git clone https://github.com/<CubeixRop>/podcast-clipper.git ~/.claude/skills/podcast-clipper
 ```
 Replace the URL with wherever you push this. If you don't use git, download the repo as a
 ZIP from GitHub's "Code" button and unzip it into `~/.claude/skills/podcast-clipper` instead.
