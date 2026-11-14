@@ -54,19 +54,6 @@ subprocess to pick moments — that only works inside Claude Code. This version 
 
 See `SKILL.md` for the full step-by-step Claude follows.
 
-## What changed from the GTA 6 version
-
-| File | Change |
-|---|---|
-| `moments.py` | New picking prompt and clip kinds; `claude -p` subprocess replaced with chunk files Claude reads/writes directly |
-| `find.py` | YouTube only; episodes not streams; skips videos under 20 min; Twitch API removed |
-| `config.py` | Podcast search words, clips 20-75 s, default layout `fit`, 96 h watchlist window, platform-aware font/encoder defaults |
-| `hook.py` | Emoji rendering handles both fixed-strike bitmap fonts (Apple Color Emoji) and scalable colour fonts (Segoe UI Emoji on Windows) |
-| `render.py`, `util.py` | Hardware encoder is auto-detected from what ffmpeg reports (VideoToolbox / NVENC / QSV / AMF / VAAPI) instead of hardcoded to Mac's VideoToolbox |
-| `run.py`, setup, launcher | Renamed (`podclip`, `~/podcast-clips`, `~/.podcast-clipper`); added Windows `setup.ps1` / `podclip.ps1`; dropped the `claude` binary requirement and `--model` flag |
-| `podcasts.txt` | Comedy podcast YouTube handles (replaces the streamer list) |
-| unchanged | `fetch.py`, `scan.py`, `captions.py`, `layout.py` (logic), `podclip` / `setup.sh` (Mac/Linux still work as before) |
-
 ## Not tested
 
 Only offline checks were run: all files compile, the picking prompt fills in correctly, the
