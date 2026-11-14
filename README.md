@@ -40,20 +40,6 @@ In Claude chat, connect the **Desktop Commander** connector so Claude can run th
 and read/write files on your machine. Then say: *"clip this episode: <link>"* or *"find
 today's biggest comedy podcast episodes and clip them"*.
 
-## How picking moments works now (the main change from the Claude Code version)
-
-The original version ran on Claude Code and had the script call `claude -p` as a
-subprocess to pick moments — that only works inside Claude Code. This version instead:
-
-1. The script writes each ~12-minute window of the episode's transcript to its own
-   `chunk_NN.txt` prompt file and stops.
-2. Claude (in your chat) reads each one and writes back a `chunk_NN.result.json` with its
-   picks — the same reasoning a `claude -p` call would have done, just done directly by the
-   assistant you're already talking to.
-3. You run the exact same command again; it picks up the written results and renders.
-
-See `SKILL.md` for the full step-by-step Claude follows.
-
 ## Not tested
 
 Only offline checks were run: all files compile, the picking prompt fills in correctly, the
